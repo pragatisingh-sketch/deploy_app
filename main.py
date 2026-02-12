@@ -1,3 +1,17 @@
+# from flask import Flask
+
+# app = Flask(__name__)
+
+# @app.route("/")
+# def home():
+#     return "Hello from Cloud Run! System check complete."
+
+# if __name__ == "__main__":
+#     app.run(host="0.0.0.0", port=8080)
+
+
+
+
 from flask import Flask, jsonify, render_template_string
 import time
 import os
